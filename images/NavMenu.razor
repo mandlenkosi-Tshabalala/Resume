@@ -1,0 +1,87 @@
+﻿
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <button class="navbar-toggler @NavButtonCssClass" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-label="Toggle navigation" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse @NavBarCssClass" id="navbarCollapse" @onclick="ToggleNavMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item tabs">
+                    <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                        <span aria-hidden="true" class="whiteOnBlackText">Home</span>
+                    </NavLink>
+                </li>
+                <li class="nav-item tabs">
+                    <NavLink class="nav-link" href="about">
+                        <span aria-hidden="true" class="whiteOnBlackText">About</span>
+                    </NavLink>
+                </li>
+                <li class="nav-item tabs">
+                    <NavLink class="nav-link" href="contact">
+                        <span aria-hidden="true" class="whiteOnBlackText">Contact</span>
+                    </NavLink>
+                </li>
+                <li class="nav-item tabs">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+
+                            <NavLink class="nav-link" href="about">
+                                <i class="fa wp-icon fa-facebook-f "> </i>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link" href="contact">
+                                <i class="fa wp-icon fa-linkedin "> </i>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link" href="about">
+                                <i class="fa wp-icon fa-twitter "> </i>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link" href="contact">
+                                <i class="fa wp-icon fa-youtube "> </i>
+                            </NavLink>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item tabs">
+                    <NavLink class="nav-link">
+                        <div class="search-box">
+
+                            <input type="text" placeholder=" Search" @bind-value="SearchTerm" @bind-value:event="oninput" />
+                            <i class="fa fa-search" style="float:right"></i>
+                        </div>
+                    </NavLink>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@code {
+    private bool collapseNavMenu = true;
+    private string? NavBarCssClass => collapseNavMenu ? null : "show";
+    private string? NavButtonCssClass => collapseNavMenu ? "collapsed" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+
+    string SearchTerm { get; set; } = "";
+
+    public void OnInput(Microsoft.AspNetCore.Components.ChangeEventArgs args)
+    {
+
+    }
+
+}

@@ -1,0 +1,1103 @@
+/* /Pages/About.razor.rz.scp.css */
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-8ekua36s6l] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-8ekua36s6l] {
+        opacity: 1;
+        transform: none;
+    }
+
+
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-8ekua36s6l] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+/* /Pages/Contact.razor.rz.scp.css */
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-f9ofesuatv] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-f9ofesuatv] {
+        opacity: 1;
+        transform: none;
+    }
+
+
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-f9ofesuatv] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+
+
+/* Center Font Awesome icons */
+.fa-2x[b-f9ofesuatv] {
+    margin-bottom: 10px;
+    color: blue;
+    display: block;
+    text-align: center;
+}
+
+
+.fa[b-f9ofesuatv] {
+    background: blue;
+    color: blue;
+    display: block;
+    text-align: center;
+}
+
+
+
+.contactIcon[b-f9ofesuatv] {
+    color: white;
+    display: inline-block;
+    border-radius: 50% !important;
+    box-shadow: 0px 0px 10px blue;
+    padding: 0.4em 0.4em;
+    justify-content: center;
+}
+
+
+
+.icon[b-f9ofesuatv] {
+    text-align: center;
+}
+/* /Pages/Experience.razor.rz.scp.css */
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-bak0y3myyt] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-bak0y3myyt] {
+        opacity: 1;
+        transform: none;
+    }
+
+
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-bak0y3myyt] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+
+/* Ensure the section has enough breathing room */
+#experience[b-bak0y3myyt] {
+    padding: 80px 0;
+    position: relative;
+    display: block;
+    clear: both;
+    background: #fff;
+}
+
+/* This is the magic fix for the "flowing into other components" issue */
+.timeline-wrapper[b-bak0y3myyt] {
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden; /* Contains the negative margins within this block */
+    padding: 40px 0;
+}
+
+.main-timeline6[b-bak0y3myyt] {
+    position: relative;
+}
+
+/* Clearfix to ensure the container wraps the floated children */
+.main-timeline6[b-bak0y3myyt]:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-timeline6 .timeline[b-bak0y3myyt] {
+    width: 50%;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.main-timeline6 .timeline[b-bak0y3myyt]:after,
+.main-timeline6 .timeline[b-bak0y3myyt]:before {
+    position: absolute;
+    top: 50%;
+    content: "";
+    display: block;
+}
+
+.main-timeline6 .timeline[b-bak0y3myyt]:before {
+    width: 40%;
+    height: 6px;
+    background: #9f005d;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.main-timeline6 .timeline[b-bak0y3myyt]:after {
+    width: 6px;
+    height: 70%;
+    background: #9f005d;
+    left: -3px;
+}
+
+.main-timeline6 .timeline-content[b-bak0y3myyt] {
+    width: 65%;
+    float: right;
+    padding: 0 0 30px 30px;
+    margin-right: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
+}
+
+.main-timeline6 .timeline-content[b-bak0y3myyt]:after,
+.main-timeline6 .timeline-content[b-bak0y3myyt]:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #9f005d;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.main-timeline6 .timeline-content[b-bak0y3myyt]:after {
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.main-timeline6 .year[b-bak0y3myyt] {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #9f005d;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.main-timeline6 .content-inner[b-bak0y3myyt] {
+    padding: 35px 15px 35px 110px;
+    margin-right: -15px;
+    background: #9f005d;
+    border-radius: 150px 0 0 150px;
+    position: relative;
+}
+
+.main-timeline6 .content-inner[b-bak0y3myyt]:after,
+.main-timeline6 .content-inner[b-bak0y3myyt]:before {
+    content: "";
+    border-left: 15px solid #640026;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.main-timeline6 .content-inner[b-bak0y3myyt]:after {
+    border-top: none;
+    border-bottom: 10px solid transparent;
+    top: auto;
+    bottom: -10px;
+}
+
+.main-timeline6 .icon[b-bak0y3myyt] {
+    width: 110px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-timeline6 .icon i[b-bak0y3myyt] {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-timeline6 .title[b-bak0y3myyt] {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 5px;
+}
+
+.main-timeline6 .description[b-bak0y3myyt] {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Alternating Logic */
+.main-timeline6 .timeline:nth-child(2n) .icon[b-bak0y3myyt],
+.main-timeline6 .timeline:nth-child(2n)[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(2n)[b-bak0y3myyt]:before {
+    left: auto;
+    right: 0;
+}
+
+.main-timeline6 .timeline:nth-child(2n)[b-bak0y3myyt]:after {
+    right: -3px;
+}
+
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt] {
+    float: left;
+    padding: 0 30px 30px 0;
+    margin: 0 0 0 15px;
+}
+
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt]:before {
+    left: auto;
+    right: -13px;
+}
+
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt]:after {
+    right: 30%;
+    margin-right: -25px;
+}
+
+.main-timeline6 .timeline:nth-child(2n) .year[b-bak0y3myyt] {
+    padding: 0 50px 0 0;
+    color: #05b1ff;
+}
+
+    .main-timeline6 .timeline:nth-child(3n) .year[b-bak0y3myyt] {
+        padding: 0 50px 0 0;
+        color: #00a3a9;
+    }
+
+    .main-timeline6 .timeline:nth-child(4n) .year[b-bak0y3myyt] {
+        padding: 0 50px 0 0;
+        color: #f92534;
+    }
+
+
+    .main-timeline6 .timeline:nth-child(5n) .year[b-bak0y3myyt] {
+        padding: 0 50px 0 0;
+        color: #FFFF00;
+    }
+
+
+    .main-timeline6 .timeline:nth-child(6n) .year[b-bak0y3myyt] {
+        padding: 0 50px 0 0;
+        color: #800080;
+    }
+
+.main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt] {
+    padding: 35px 110px 35px 15px;
+    margin: 0 0 0 -15px;
+    border-radius: 0 150px 150px 0;
+}
+
+.main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt]:before {
+    border: none;
+    border-right: 15px solid #027dcd;
+    border-top: 10px solid transparent;
+    right: auto;
+    left: 0;
+}
+
+/* The Margin Fixes */
+.main-timeline6 .timeline:nth-child(2)[b-bak0y3myyt] {
+    margin-top: 200px;
+}
+
+.main-timeline6 .timeline:nth-child(odd)[b-bak0y3myyt] {
+    margin: -190px 0 0;
+}
+
+.main-timeline6 .timeline:nth-child(even)[b-bak0y3myyt] {
+    margin-bottom: 70px;
+}
+
+.main-timeline6 .timeline:first-child[b-bak0y3myyt] {
+    margin-top: 0 !important;
+}
+
+.main-timeline6 .timeline:last-child[b-bak0y3myyt] {
+    margin-bottom: 0 !important;
+}
+
+/* Dynamic Colors */
+.main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt],
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt]:before,
+.main-timeline6 .timeline:nth-child(2n)[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(2n)[b-bak0y3myyt]:before {
+    background: #05b1ff;
+}
+
+.main-timeline6 .timeline:nth-child(3n) .content-inner[b-bak0y3myyt],
+.main-timeline6 .timeline:nth-child(3n) .timeline-content[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(3n) .timeline-content[b-bak0y3myyt]:before,
+.main-timeline6 .timeline:nth-child(3n)[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(3n)[b-bak0y3myyt]:before {
+    background: #00a3a9;
+}
+
+.main-timeline6 .timeline:nth-child(4n) .content-inner[b-bak0y3myyt],
+.main-timeline6 .timeline:nth-child(4n) .timeline-content[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(4n) .timeline-content[b-bak0y3myyt]:before,
+.main-timeline6 .timeline:nth-child(4n)[b-bak0y3myyt]:after,
+.main-timeline6 .timeline:nth-child(4n)[b-bak0y3myyt]:before {
+    background: #f92534;
+}
+
+    .main-timeline6 .timeline:nth-child(5n) .content-inner[b-bak0y3myyt],
+    .main-timeline6 .timeline:nth-child(5n) .timeline-content[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(5n) .timeline-content[b-bak0y3myyt]:before,
+    .main-timeline6 .timeline:nth-child(5n)[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(5n)[b-bak0y3myyt]:before {
+        background: #FFFF00;
+    }
+
+    .main-timeline6 .timeline:nth-child(6n) .content-inner[b-bak0y3myyt],
+    .main-timeline6 .timeline:nth-child(6n) .timeline-content[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(6n) .timeline-content[b-bak0y3myyt]:before,
+    .main-timeline6 .timeline:nth-child(6n)[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(6n)[b-bak0y3myyt]:before {
+        background: #800080;
+    }
+
+/* Mobile Fixes */
+@media only screen and (max-width:767px) {
+    .timeline-wrapper[b-bak0y3myyt] {
+        overflow: visible;
+    }
+    .main-timeline6 .timeline[b-bak0y3myyt] {
+        width: 100%;
+        float: none;
+        margin: 20px 0 !important;
+    }
+    .main-timeline6 .timeline-content[b-bak0y3myyt],
+    .main-timeline6 .timeline:nth-child(2n) .timeline-content[b-bak0y3myyt] {
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 20px;
+        margin: 0;
+    }
+    .main-timeline6 .content-inner[b-bak0y3myyt],
+    .main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt] {
+        padding: 20px 15px 20px 80px;
+        border-radius: 100px 0 0 100px;
+    }
+    .main-timeline6 .icon[b-bak0y3myyt] {
+        width: 80px;
+    }
+}
+/* /Pages/Home.razor.rz.scp.css */
+/* Make #home a positioned container so absolutely positioned children are relative to it */
+#home[b-jtngwpdce8] {
+    position: relative;
+}
+
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-jtngwpdce8] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-jtngwpdce8] {
+        opacity: 1;
+        transform: none;
+    }
+
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-jtngwpdce8] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+/* Columns (unchanged) */
+.col_half[b-jtngwpdce8] {
+    width: 49%;
+}
+
+.col_third[b-jtngwpdce8] {
+    width: 32%;
+}
+
+.col_fourth[b-jtngwpdce8] {
+    width: 23.5%;
+}
+
+.col_fifth[b-jtngwpdce8] {
+    width: 18.4%;
+}
+
+.col_sixth[b-jtngwpdce8] {
+    width: 15%;
+}
+
+.col_three_fourth[b-jtngwpdce8] {
+    width: 74.5%;
+}
+
+.col_twothird[b-jtngwpdce8] {
+    width: 66%;
+}
+
+/* Updated column classes: remove float and inline-block for flex compatibility */
+.col_half[b-jtngwpdce8],
+.col_third[b-jtngwpdce8],
+.col_twothird[b-jtngwpdce8],
+.col_fourth[b-jtngwpdce8],
+.col_three_fourth[b-jtngwpdce8],
+.col_fifth[b-jtngwpdce8] {
+    position: relative;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+/* last column should not have the right margin */
+.end[b-jtngwpdce8] {
+    margin-right: 0 !important;
+}
+
+/* Wrapper and counters */
+.wrapper[b-jtngwpdce8] {
+    width: 980px;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.counter[b-jtngwpdce8] {
+    background-color: rgba(0,0,0,0.0);
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23.5%;
+    min-width: 180px;
+    box-sizing: border-box;
+}
+
+.count-title[b-jtngwpdce8] {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text[b-jtngwpdce8] {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* Font Awesome icons */
+.fa-2x[b-jtngwpdce8] {
+    margin-bottom: 10px;
+    color: #4ad1e5;
+    display: block;
+    text-align: center;
+}
+
+/* counterIcon */
+.counterIcon[b-jtngwpdce8] {
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px white;
+    padding: 0.4em 0.4em;
+    justify-content: center;
+}
+
+/* background image */
+.background[b-jtngwpdce8] {
+    width: 100vmax;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* arrow size */
+.arrow[b-jtngwpdce8] {
+    height: 3rem;
+    width: 3rem;
+    display: block;
+}
+
+/* KEY FIX: center arrowContainer horizontally */
+/* - left:50% moves the element's left edge to the center
+   - translateX(-50%) shifts it left by half its own width to center it exactly.
+   - give it a z-index so it sits above the background */
+.arrowContainer[b-jtngwpdce8] {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%); /* <-- the crucial bit */
+    z-index: 3;
+}
+
+/* name and job title (unchanged) */
+.name[b-jtngwpdce8] {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.jobTitle[b-jtngwpdce8] {
+    font-size: x-large;
+    color: white;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* repeat of fadeInContent (left intact) */
+.fadeInContent[b-jtngwpdce8] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-jtngwpdce8] {
+        opacity: 1;
+        transform: none;
+    }
+
+    .fadeInContent.in-view[b-jtngwpdce8] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+/* small-screen tweak */
+@media (max-width: 520px) {
+    .fadeInContent[b-jtngwpdce8] {
+        transform: translateX(-20px);
+    }
+
+        .fadeInContent.in-view[b-jtngwpdce8] {
+            transform: translateX(0);
+        }
+}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .fadeInContent[b-jtngwpdce8],
+    .fadeInContent.in-view[b-jtngwpdce8] {
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+}
+/* /Pages/Portfolio.razor.rz.scp.css */
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-hp9uhrf4of] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-hp9uhrf4of] {
+        opacity: 1;
+        transform: none;
+    }
+
+
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-hp9uhrf4of] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+/* Portfolio.razor.css - cleaned and fixed */
+
+/* predictable sizing */
+*[b-hp9uhrf4of],
+*[b-hp9uhrf4of]::before,
+*[b-hp9uhrf4of]::after {
+    box-sizing: border-box;
+}
+
+/* section spacing so it doesn't collide with neighbors */
+.portfolio-section[b-hp9uhrf4of] {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+/* image */
+.portfolioImage[b-hp9uhrf4of] {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    display: block;
+    object-fit: cover; /* keep aspect, crop instead of stretching */
+}
+
+/* links on back face */
+.portfolio-link[b-hp9uhrf4of] {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Flip card container - keep overflow hidden to prevent faces spilling out */
+.flip-card[b-hp9uhrf4of] {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* 3D perspective */
+    overflow: hidden; /* IMPORTANT: prevents rotated faces from escaping and visually overlapping other sections */
+    border-radius: 25px;
+}
+
+/* inner container that flips */
+.flip-card-inner[b-hp9uhrf4of] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* hover triggers the flip */
+.flip-card:hover .flip-card-inner[b-hp9uhrf4of],
+.flip-card:focus-within .flip-card-inner[b-hp9uhrf4of] {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+/* front and back faces */
+.flip-card-front[b-hp9uhrf4of],
+.flip-card-back[b-hp9uhrf4of] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* front fallback */
+.flip-card-front[b-hp9uhrf4of] {
+    background-color: blue;
+    color: blue;
+}
+
+/* back face - styled as you had it, but kept inside the card via overflow:hidden on .flip-card */
+.flip-card-back[b-hp9uhrf4of] {
+    background-color: blue;
+    color: #fff;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+    /* small adjustments for long descriptions */
+    .flip-card-back p[b-hp9uhrf4of] {
+        margin: 10px 0;
+        line-height: 1.4;
+        font-size: 14px;
+        text-align: center;
+        max-height: 120px;
+        overflow: auto; /* if text is long, allow scrolling inside the back face only */
+        width: 100%;
+    }
+
+/* make sure the image sits behind the front face content if you ever add overlays */
+.flip-card-front img[b-hp9uhrf4of] {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* small responsive tweak */
+@media (max-width: 767px) {
+    .portfolioImage[b-hp9uhrf4of],
+    .flip-card[b-hp9uhrf4of] {
+        height: 220px;
+    }
+
+    .flip-card-back p[b-hp9uhrf4of] {
+        max-height: 90px;
+    }
+}
+/* /Pages/Skills.razor.rz.scp.css */
+/* Skills.razor.css - cleaned and fixed */
+
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-rpzs2dltw7] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-rpzs2dltw7] {
+        opacity: 1;
+        transform: none;
+    }
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-rpzs2dltw7] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+/* predictable sizing */
+*[b-rpzs2dltw7],
+*[b-rpzs2dltw7]::before,
+*[b-rpzs2dltw7]::after {
+    box-sizing: border-box;
+}
+
+/* Skill image: circular, centered, visible shadow that isn't clipped */
+.skillsImage[b-rpzs2dltw7] {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block; /* makes margin auto work */
+    margin: 0 auto; /* center inside its container if needed */
+    /* prefer rgba for visible, subtle shadow */
+    box-shadow: 0px 0px 10px blue;
+    /* use drop-shadow if you want the shadow to follow alpha shape:
+     filter: drop-shadow(0 8px 20px rgba(128,0,128,0.28)); */
+}
+
+/* Container for each skill — center the image and the label vertically */
+.skillsBox[b-rpzs2dltw7] {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers image horizontally */
+    justify-content: flex-start;
+    gap: 8px; /* space between image and label */
+    text-align: center;
+    padding: 10px 6px;
+}
+
+/* label under image */
+.skillsText[b-rpzs2dltw7] {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+    color: black; /* adjust to your theme color */
+   
+    white-space: nowrap; /* keeps short labels on one line */
+    text-align: center;
+    max-width: 110px; /* avoid overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* small icons for star ratings */
+.fa[b-rpzs2dltw7] {
+    font-size: 24px;
+}
+
+/* gold star color */
+.checked[b-rpzs2dltw7] {
+    color: #FFD700;
+}
+
+/* RESPONSIVE: scale down icons on small screens */
+@media (max-width: 768px) {
+    .skillsImage[b-rpzs2dltw7] {
+        width: 82px;
+        height: 82px;
+        box-shadow: 0px 0px 10px blue;
+    }
+
+    .skillsText[b-rpzs2dltw7] {
+        font-size: 13px;
+        max-width: 90px;
+    }
+}
+
+/* small-screen single-column fallback */
+@media (max-width: 480px) {
+    .skillsImage[b-rpzs2dltw7] {
+        width: 72px;
+        height: 72px;
+    }
+
+    .skillsText[b-rpzs2dltw7] {
+        font-size: 12px;
+        max-width: 80px;
+    }
+}
+
+/* Respect reduced-motion users */
+@media (prefers-reduced-motion: reduce) {
+    .fadeInContent[b-rpzs2dltw7],
+    .fadeInContent.in-view[b-rpzs2dltw7] {
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+}
+/* /Shared/Footer.razor.rz.scp.css */
+#contact[b-ivhxwnwf90] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 5rem 0 3rem;
+  width: 100vw;
+}
+
+
+
+/* Footer circle social icons - add to site.css or inside Footer.razor in a <style> block */
+
+/* footer container */
+.footer-contact[b-ivhxwnwf90] {
+    background-color: black; /* keep your red */
+    padding: 36px 0;
+}
+
+/* layout - center row */
+.social-icons[b-ivhxwnwf90] {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+
+/* circle button */
+.social-icon[b-ivhxwnwf90] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px; /* circle size - adjust if you want bigger/smaller */
+    height: 64px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    outline: none;
+}
+
+    /* the icon inside */
+    .social-icon i.fa[b-ivhxwnwf90] {
+        font-size: 26px; /* icon size inside circle */
+        color: #ffffff; /* white icon for brand-colored circles */
+        line-height: 1;
+    }
+
+    /* subtle hover/focus */
+    .social-icon:hover[b-ivhxwnwf90],
+    .social-icon:focus[b-ivhxwnwf90] {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    /* keyboard focus visible */
+    .social-icon:focus[b-ivhxwnwf90] {
+        box-shadow: 0 0 0 4px rgba(255,255,255,0.12), 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    /* brand backgrounds (circle colors) */
+    .social-icon.twitter[b-ivhxwnwf90] {
+        background: #1DA1F2;
+    }
+
+    .social-icon.facebook[b-ivhxwnwf90] {
+        background: #1877F2;
+    }
+
+    .social-icon.linkedin[b-ivhxwnwf90] {
+        background: #0077B5;
+    }
+
+    .social-icon.github[b-ivhxwnwf90] {
+        background: #000000;
+    }
+
+    .social-icon.instagram[b-ivhxwnwf90] {
+        /* Instagram gradient-ish single color fallback (FontAwesome4 doesn't support gradient icons easily) */
+        background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
+    }
+
+/* responsive tweaks */
+@media (max-width: 520px) {
+    .social-icon[b-ivhxwnwf90] {
+        width: 52px;
+        height: 52px;
+    }
+
+        .social-icon i.fa[b-ivhxwnwf90] {
+            font-size: 22px;
+        }
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-3dsd3z3yec] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-3dsd3z3yec] {
+    flex: 1;
+}
+
+.sidebar[b-3dsd3z3yec] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-3dsd3z3yec] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-3dsd3z3yec]  a, .top-row[b-3dsd3z3yec]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-3dsd3z3yec]  a:hover, .top-row[b-3dsd3z3yec]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-3dsd3z3yec]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-3dsd3z3yec] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-3dsd3z3yec]  a, .top-row[b-3dsd3z3yec]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-3dsd3z3yec] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-3dsd3z3yec] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-3dsd3z3yec] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-3dsd3z3yec]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-3dsd3z3yec], article[b-3dsd3z3yec] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navigationBar[b-7cxxmz0cwl] {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: transparent; /* Initial color */
+    transition: background-color 0.5s ease; /* Smooth transition */
+    padding: 1rem;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+    .navigationBar.scrolled[b-7cxxmz0cwl] {
+        background-color: black; /* Color when scrolled */
+    }
+
+
+.tab-sel[b-7cxxmz0cwl] {
+    box-shadow: 0px 0px 10px blue;
+}
+
+.nav-links-text[b-7cxxmz0cwl] {
+    color: white;
+    font-size: medium;
+    font-weight: bold
+}
+
+
+/* Default style for nav links */
+.nav-link[b-7cxxmz0cwl] {
+    color: black;
+    text-decoration: none;
+}
+
+    /* Style for the active link */
+    .nav-link.active[b-7cxxmz0cwl] {
+        color: blue; /* Or any highlight color */
+        font-weight: bold;
+        border-bottom: 2px solid blue;
+    }
