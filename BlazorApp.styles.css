@@ -74,6 +74,49 @@
 .icon[b-f9ofesuatv] {
     text-align: center;
 }
+/* /Pages/Education.razor.rz.scp.css */
+.educationImage[b-gyrmnlwppd] {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    display: block; /* makes margin auto work */
+    margin: 0 auto; /* center inside its container if needed */
+    /* prefer rgba for visible, subtle shadow */
+    //box-shadow: 0px 0px 10px blue;
+    /* use drop-shadow if you want the shadow to follow alpha shape:
+     filter: drop-shadow(0 8px 20px rgba(128,0,128,0.28)); */
+}
+
+
+/* fade-in-from-left for elements with class .fadeInContent */
+.fadeInContent[b-gyrmnlwppd] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: opacity, transform;
+}
+
+    .fadeInContent.visible[b-gyrmnlwppd] {
+        opacity: 1;
+        transform: none;
+    }
+    /* when in view, slide to natural position and fade in */
+    .fadeInContent.in-view[b-gyrmnlwppd] {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+
+/* Respect reduced-motion users */
+@media (prefers-reduced-motion: reduce) {
+    .fadeInContent[b-gyrmnlwppd],
+    .fadeInContent.in-view[b-gyrmnlwppd] {
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+}
 /* /Pages/Experience.razor.rz.scp.css */
 /* fade-in-from-left for elements with class .fadeInContent */
 .fadeInContent[b-bak0y3myyt] {
