@@ -1,75 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mandla\\source\\repos\\Resume\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mandla\\source\\repos\\Resume\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mandla\\source\\repos\\Resume\\_content\\Radzen.Blazor\\Radzen.Blazor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_content\\Radzen.Blazor\\Radzen.Blazor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mandla\\source\\repos\\Resume\\_framework\\blazor.boot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_framework\\blazor.boot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Radzen.Blazor.js",
-              "DocumentMoniker": "C:\\Users\\Mandla\\source\\repos\\Resume\\_content\\Radzen.Blazor\\Radzen.Blazor.js",
-              "RelativeDocumentMoniker": "_content\\Radzen.Blazor\\Radzen.Blazor.js",
-              "ToolTip": "C:\\Users\\Mandla\\source\\repos\\Resume\\_content\\Radzen.Blazor\\Radzen.Blazor.js",
-              "RelativeToolTip": "_content\\Radzen.Blazor\\Radzen.Blazor.js",
-              "ViewState": "AgIAAFICAAAAAAAAAAAUwFgCAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-16T19:09:43.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "blazor.boot.json",
-              "DocumentMoniker": "C:\\Users\\Mandla\\source\\repos\\Resume\\_framework\\blazor.boot.json",
-              "RelativeDocumentMoniker": "_framework\\blazor.boot.json",
-              "ToolTip": "C:\\Users\\Mandla\\source\\repos\\Resume\\_framework\\blazor.boot.json",
-              "RelativeToolTip": "_framework\\blazor.boot.json",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-16T19:09:35.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Mandla\\source\\repos\\Resume\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\Mandla\\source\\repos\\Resume\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAvwBIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-16T19:03:04.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
