@@ -351,6 +351,12 @@
         color: #800080;
     }
 
+
+    .main-timeline6 .timeline:nth-child(7n) .year[b-bak0y3myyt] {
+        padding: 0 50px 0 0;
+        color: #CC5500;
+    }
+
 .main-timeline6 .timeline:nth-child(2n) .content-inner[b-bak0y3myyt] {
     padding: 35px 110px 35px 15px;
     margin: 0 0 0 -15px;
@@ -428,6 +434,14 @@
         background: #800080;
     }
 
+
+    .main-timeline6 .timeline:nth-child(7n) .content-inner[b-bak0y3myyt],
+    .main-timeline6 .timeline:nth-child(7n) .timeline-content[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(7n) .timeline-content[b-bak0y3myyt]:before,
+    .main-timeline6 .timeline:nth-child(7n)[b-bak0y3myyt]:after,
+    .main-timeline6 .timeline:nth-child(7n)[b-bak0y3myyt]:before {
+        background: #CC5500;
+    }
 /* Mobile Fixes */
 @media only screen and (max-width:767px) {
     .timeline-wrapper[b-bak0y3myyt] {
@@ -668,6 +682,7 @@
         opacity: 1 !important;
     }
 }
+/* /Pages/index.razor.rz.scp.css */
 /* /Pages/Portfolio.razor.rz.scp.css */
 /* fade-in-from-left for elements with class .fadeInContent */
 .fadeInContent[b-hp9uhrf4of] {
@@ -1031,6 +1046,7 @@
     flex-direction: column;
 }
 
+
 main[b-3dsd3z3yec] {
     flex: 1;
 }
@@ -1102,6 +1118,16 @@ main[b-3dsd3z3yec] {
         padding-right: 1.5rem !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navigationBar[b-7cxxmz0cwl] {
     position: fixed;
