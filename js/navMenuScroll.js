@@ -1,9 +1,15 @@
-﻿
-window.addEventListener('scroll', function () {
-	const navbar = document.getElementById('navMenu');
-	if (window.scrollY > 50) { // Adjust value (50px) as needed
-		navbar.classList.add('scrolled');
-	} else {
-		navbar.classList.remove('scrolled');
-	}
-});
+﻿export function initNavMenuScroll(navSelector = "#navMenu", offset = 50) {
+    const navbar = document.querySelector(navSelector);
+    if (!navbar) return;
+
+    const updateNavbarState = () => {
+        if (window.scrollY > offset) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    };
+
+    window.addEventListener("scroll", updateNavbarState, { passive: true });
+    updateNavbarState();
+}

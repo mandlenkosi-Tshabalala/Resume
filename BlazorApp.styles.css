@@ -74,6 +74,17 @@
 .icon[b-f9ofesuatv] {
     text-align: center;
 }
+
+
+.contacttext[b-f9ofesuatv] {
+    color: white;
+    font-weight: bold;
+}
+
+
+.black-section[b-f9ofesuatv] {
+    background-color: black;
+}
 /* /Pages/Education.razor.rz.scp.css */
 .educationImage[b-gyrmnlwppd] {
     width: 350px;
@@ -116,6 +127,22 @@
         transform: none !important;
         opacity: 1 !important;
     }
+}
+
+
+span[b-gyrmnlwppd] {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.grey-section[b-gyrmnlwppd] {
+    background-color: powderblue;
+}
+
+.boldtext[b-gyrmnlwppd] {
+    font-weight: bold;
 }
 /* /Pages/Experience.razor.rz.scp.css */
 /* fade-in-from-left for elements with class .fadeInContent */
@@ -682,6 +709,86 @@
         opacity: 1 !important;
     }
 }
+
+
+
+/* layout - center row */
+.social-icons[b-jtngwpdce8] {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+
+/* circle button */
+.social-icon[b-jtngwpdce8] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px; /* circle size - adjust if you want bigger/smaller */
+    height: 48px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    outline: none;
+}
+
+    /* the icon inside */
+    .social-icon i.fa[b-jtngwpdce8] {
+        font-size: 26px; /* icon size inside circle */
+        color: #ffffff; /* white icon for brand-colored circles */
+        line-height: 1;
+    }
+
+    /* subtle hover/focus */
+    .social-icon:hover[b-jtngwpdce8],
+    .social-icon:focus[b-jtngwpdce8] {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    /* keyboard focus visible */
+    .social-icon:focus[b-jtngwpdce8] {
+        box-shadow: 0 0 0 4px rgba(255,255,255,0.12), 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    /* brand backgrounds (circle colors) */
+    .social-icon.twitter[b-jtngwpdce8] {
+        background: #1DA1F2;
+    }
+
+    .social-icon.facebook[b-jtngwpdce8] {
+        background: #1877F2;
+    }
+
+    .social-icon.linkedin[b-jtngwpdce8] {
+        background: #0077B5;
+    }
+
+    .social-icon.github[b-jtngwpdce8] {
+        background: #000000;
+    }
+
+    .social-icon.instagram[b-jtngwpdce8] {
+        /* Instagram gradient-ish single color fallback (FontAwesome4 doesn't support gradient icons easily) */
+        background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
+    }
+
+/* responsive tweaks */
+@media (max-width: 520px) {
+    .social-icon[b-jtngwpdce8] {
+        width: 52px;
+        height: 52px;
+    }
+
+        .social-icon i.fa[b-jtngwpdce8] {
+            font-size: 22px;
+        }
+}
+
 /* /Pages/index.razor.rz.scp.css */
 /* /Pages/Portfolio.razor.rz.scp.css */
 /* fade-in-from-left for elements with class .fadeInContent */
@@ -889,12 +996,13 @@
     line-height: 1.2;
     margin: 0;
     color: black; /* adjust to your theme color */
-   
+
     white-space: nowrap; /* keeps short labels on one line */
     text-align: center;
     max-width: 110px; /* avoid overflow */
     overflow: hidden;
     text-overflow: ellipsis;
+    font-weight: bold;
 }
 
 /* small icons for star ratings */
@@ -918,6 +1026,7 @@
     .skillsText[b-rpzs2dltw7] {
         font-size: 13px;
         max-width: 90px;
+        font-weight: bold;
     }
 }
 
@@ -931,6 +1040,7 @@
     .skillsText[b-rpzs2dltw7] {
         font-size: 12px;
         max-width: 80px;
+        font-weight: bold;
     }
 }
 
@@ -942,6 +1052,20 @@
         transform: none !important;
         opacity: 1 !important;
     }
+}
+
+
+.grey-section[b-rpzs2dltw7] {
+    background-color: powderblue;
+}
+
+
+.boldtext[b-rpzs2dltw7] {
+    font-weight: bold;
+}
+
+.bg-purple[b-rpzs2dltw7] {
+    background-color: blue !important;
 }
 /* /Shared/Footer.razor.rz.scp.css */
 #contact[b-ivhxwnwf90] {
@@ -1134,8 +1258,8 @@ main[b-3dsd3z3yec] {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: transparent; /* Initial color */
-    transition: background-color 0.5s ease; /* Smooth transition */
+    background-color: transparent;
+    transition: background-color 0.5s ease;
     padding: 1rem;
     top: 0;
     width: 100%;
@@ -1143,9 +1267,8 @@ main[b-3dsd3z3yec] {
 }
 
     .navigationBar.scrolled[b-7cxxmz0cwl] {
-        background-color: black; /* Color when scrolled */
+        background-color: black;
     }
-
 
 .tab-sel[b-7cxxmz0cwl] {
     box-shadow: 0px 0px 10px blue;
@@ -1154,19 +1277,26 @@ main[b-3dsd3z3yec] {
 .nav-links-text[b-7cxxmz0cwl] {
     color: white;
     font-size: medium;
-    font-weight: bold
+    font-weight: bold;
 }
 
-
-/* Default style for nav links */
 .nav-link[b-7cxxmz0cwl] {
     color: black;
     text-decoration: none;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
-    /* Style for the active link */
-    .nav-link.active[b-7cxxmz0cwl] {
-        color: blue; /* Or any highlight color */
-        font-weight: bold;
-        border-bottom: 2px solid blue;
-    }
+.navigationBar.scrolled .nav-link[b-7cxxmz0cwl] {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.nav-link.active[b-7cxxmz0cwl] {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
